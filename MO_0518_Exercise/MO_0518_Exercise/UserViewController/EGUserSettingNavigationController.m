@@ -14,25 +14,28 @@
 
 @implementation EGUserSettingNavigationController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (instancetype)init {
+    if (self = [super init]) {
+        [self setup];
+    }
+    return self;
+}
+
+- (void)awakeFromNib {
+    [self setup];
+}
+
+
+- (void)setup {
     self.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"用户" image:nil selectedImage:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
++ (instancetype)userViewController {
+    //直接通过storyboard加载,
+    UIStoryboard *userStoryboard = [UIStoryboard storyboardWithName:NSStringFromClass([EGUserSettingNavigationController class]) bundle:nil];
+    EGUserSettingNavigationController *userViewController = [userStoryboard instantiateInitialViewController];
+    
+    return userViewController;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

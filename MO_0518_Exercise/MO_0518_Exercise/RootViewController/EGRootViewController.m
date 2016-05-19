@@ -9,7 +9,7 @@
 #import "EGRootViewController.h"
 
 #import "EGVideoViewController.h"
-#import "EGUserViewController.h"
+#import "EGUserSettingNavigationController.h"
 
 
 @implementation EGRootViewController
@@ -19,16 +19,13 @@
     [self setUpChildViewControllers];
 }
 
-
-
 // setup ChildViewControllers
 
 - (void)setUpChildViewControllers {
     EGVideoViewController *videoViewController = [EGVideoViewController videoViewController];
-    EGUserViewController *userViewController = [EGUserViewController userViewController];
+    EGUserSettingNavigationController *userViewController = [EGUserSettingNavigationController userViewController];
     
-    [self addChildViewController:videoViewController];
-    [self addChildViewController:userViewController];
+    self.viewControllers = @[videoViewController, userViewController];
 }
 
 @end

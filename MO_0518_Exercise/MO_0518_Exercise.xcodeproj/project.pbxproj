@@ -87,7 +87,7 @@
 		917400C31CECC2A60052883D /* MO_0518_ExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400C21CECC2A60052883D /* MO_0518_ExerciseUITests.m */; };
 		917400E11CECC3C70052883D /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400E01CECC3C70052883D /* BasicViewController.m */; };
 		917400E41CECC3E90052883D /* EGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400E31CECC3E90052883D /* EGRootViewController.m */; };
-		91B09F661CED515000483840 /* EGUserViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B09F651CED515000483840 /* EGUserViewController.storyboard */; };
+		91B09F661CED515000483840 /* EGUserSettingNavigationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B09F651CED515000483840 /* EGUserSettingNavigationController.storyboard */; };
 		91B09F6A1CED561D00483840 /* EGSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B09F681CED561D00483840 /* EGSettingTableViewCell.m */; };
 		91B09F6B1CED561D00483840 /* EGSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B09F691CED561D00483840 /* EGSettingTableViewCell.xib */; };
 		91B09F701CED593200483840 /* EGUserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B09F6E1CED593200483840 /* EGUserDetailViewController.m */; };
@@ -284,7 +284,7 @@
 		917400E01CECC3C70052883D /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 		917400E21CECC3E90052883D /* EGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGRootViewController.h; sourceTree = "<group>"; };
 		917400E31CECC3E90052883D /* EGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGRootViewController.m; sourceTree = "<group>"; };
-		91B09F651CED515000483840 /* EGUserViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EGUserViewController.storyboard; sourceTree = "<group>"; };
+		91B09F651CED515000483840 /* EGUserSettingNavigationController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EGUserSettingNavigationController.storyboard; sourceTree = "<group>"; };
 		91B09F671CED561D00483840 /* EGSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSettingTableViewCell.h; sourceTree = "<group>"; };
 		91B09F681CED561D00483840 /* EGSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSettingTableViewCell.m; sourceTree = "<group>"; };
 		91B09F691CED561D00483840 /* EGSettingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGSettingTableViewCell.xib; sourceTree = "<group>"; };
@@ -709,7 +709,7 @@
 				91B09F731CED5DF900483840 /* EGUserSettingNavigationController.m */,
 				91605A7B1CECCA8B007FB9AF /* EGUserViewController.h */,
 				91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */,
-				91B09F651CED515000483840 /* EGUserViewController.storyboard */,
+				91B09F651CED515000483840 /* EGUserSettingNavigationController.storyboard */,
 				91B09F6C1CED590A00483840 /* UserDetailViewController */,
 				91B09F671CED561D00483840 /* EGSettingTableViewCell.h */,
 				91B09F681CED561D00483840 /* EGSettingTableViewCell.m */,
@@ -851,7 +851,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91605B631CECCBE5007FB9AF /* SVProgressHUD.bundle in Resources */,
-				91B09F661CED515000483840 /* EGUserViewController.storyboard in Resources */,
+				91B09F661CED515000483840 /* EGUserSettingNavigationController.storyboard in Resources */,
 				917400AD1CECC2A60052883D /* LaunchScreen.storyboard in Resources */,
 				917400AA1CECC2A60052883D /* Assets.xcassets in Resources */,
 				91B09F711CED593200483840 /* EGUserDetailViewController.xib in Resources */,

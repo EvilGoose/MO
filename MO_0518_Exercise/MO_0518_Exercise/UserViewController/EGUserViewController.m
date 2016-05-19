@@ -18,14 +18,6 @@
 @implementation EGUserViewController
 NSString *ID = @"settings";
 
-+ (instancetype)userViewController {
-//直接通过storyboard加载,
-    UIStoryboard *userStoryboard = [UIStoryboard storyboardWithName:NSStringFromClass([EGUserViewController class]) bundle:nil];
-    EGUserViewController *userViewController = [userStoryboard instantiateInitialViewController];
-    
-    return userViewController;
-}
-
 //重写初始化
 - (instancetype)init {
     if (self = [super init]) {
