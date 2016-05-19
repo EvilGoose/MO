@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9155A42F1CED98A700CEB962 /* EGReadingNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A42E1CED98A700CEB962 /* EGReadingNavigationViewController.m */; };
+		9155A4321CED98BE00CEB962 /* EGReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4311CED98BE00CEB962 /* EGReadingViewController.m */; };
+		9155A4351CED99E300CEB962 /* EGVideoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */; };
 		91605A7D1CECCA8B007FB9AF /* EGUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */; };
 		91605A841CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A831CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m */; };
 		91605A881CECCB76007FB9AF /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A871CECCB76007FB9AF /* UIImage+ImageWithColor.m */; };
@@ -87,6 +90,10 @@
 		917400C31CECC2A60052883D /* MO_0518_ExerciseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400C21CECC2A60052883D /* MO_0518_ExerciseUITests.m */; };
 		917400E11CECC3C70052883D /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400E01CECC3C70052883D /* BasicViewController.m */; };
 		917400E41CECC3E90052883D /* EGRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400E31CECC3E90052883D /* EGRootViewController.m */; };
+		917EB05F1CED938E00D37A5D /* EGDiscussViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917EB05E1CED938E00D37A5D /* EGDiscussViewController.m */; };
+		917EB0621CED940A00D37A5D /* EGDiscussNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917EB0611CED940A00D37A5D /* EGDiscussNavigationViewController.m */; };
+		917EB0651CED96B100D37A5D /* EGNewsNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917EB0641CED96B100D37A5D /* EGNewsNavigationViewController.m */; };
+		917EB0681CED96C700D37A5D /* EGNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917EB0671CED96C700D37A5D /* EGNewsViewController.m */; };
 		91B09F661CED515000483840 /* EGUserSettingNavigationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91B09F651CED515000483840 /* EGUserSettingNavigationController.storyboard */; };
 		91B09F6A1CED561D00483840 /* EGSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91B09F681CED561D00483840 /* EGSettingTableViewCell.m */; };
 		91B09F6B1CED561D00483840 /* EGSettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91B09F691CED561D00483840 /* EGSettingTableViewCell.xib */; };
@@ -113,6 +120,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9155A42D1CED98A700CEB962 /* EGReadingNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGReadingNavigationViewController.h; sourceTree = "<group>"; };
+		9155A42E1CED98A700CEB962 /* EGReadingNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGReadingNavigationViewController.m; sourceTree = "<group>"; };
+		9155A4301CED98BE00CEB962 /* EGReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGReadingViewController.h; sourceTree = "<group>"; };
+		9155A4311CED98BE00CEB962 /* EGReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGReadingViewController.m; sourceTree = "<group>"; };
+		9155A4331CED99E300CEB962 /* EGVideoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoNavigationViewController.h; sourceTree = "<group>"; };
+		9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoNavigationViewController.m; sourceTree = "<group>"; };
 		91605A7B1CECCA8B007FB9AF /* EGUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGUserViewController.h; sourceTree = "<group>"; };
 		91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGUserViewController.m; sourceTree = "<group>"; };
 		91605A7F1CECCB2A007FB9AF /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
@@ -284,6 +297,14 @@
 		917400E01CECC3C70052883D /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
 		917400E21CECC3E90052883D /* EGRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGRootViewController.h; sourceTree = "<group>"; };
 		917400E31CECC3E90052883D /* EGRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGRootViewController.m; sourceTree = "<group>"; };
+		917EB05D1CED938E00D37A5D /* EGDiscussViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGDiscussViewController.h; sourceTree = "<group>"; };
+		917EB05E1CED938E00D37A5D /* EGDiscussViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGDiscussViewController.m; sourceTree = "<group>"; };
+		917EB0601CED940A00D37A5D /* EGDiscussNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGDiscussNavigationViewController.h; sourceTree = "<group>"; };
+		917EB0611CED940A00D37A5D /* EGDiscussNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGDiscussNavigationViewController.m; sourceTree = "<group>"; };
+		917EB0631CED96B100D37A5D /* EGNewsNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGNewsNavigationViewController.h; sourceTree = "<group>"; };
+		917EB0641CED96B100D37A5D /* EGNewsNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGNewsNavigationViewController.m; sourceTree = "<group>"; };
+		917EB0661CED96C700D37A5D /* EGNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGNewsViewController.h; sourceTree = "<group>"; };
+		917EB0671CED96C700D37A5D /* EGNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGNewsViewController.m; sourceTree = "<group>"; };
 		91B09F651CED515000483840 /* EGUserSettingNavigationController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EGUserSettingNavigationController.storyboard; sourceTree = "<group>"; };
 		91B09F671CED561D00483840 /* EGSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGSettingTableViewCell.h; sourceTree = "<group>"; };
 		91B09F681CED561D00483840 /* EGSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGSettingTableViewCell.m; sourceTree = "<group>"; };
@@ -662,6 +683,10 @@
 		917400D51CECC3700052883D /* DiscussViewController */ = {
 			isa = PBXGroup;
 			children = (
+				917EB0601CED940A00D37A5D /* EGDiscussNavigationViewController.h */,
+				917EB0611CED940A00D37A5D /* EGDiscussNavigationViewController.m */,
+				917EB05D1CED938E00D37A5D /* EGDiscussViewController.h */,
+				917EB05E1CED938E00D37A5D /* EGDiscussViewController.m */,
 			);
 			path = DiscussViewController;
 			sourceTree = "<group>";
@@ -669,6 +694,10 @@
 		917400D61CECC3700052883D /* NewsViewController */ = {
 			isa = PBXGroup;
 			children = (
+				917EB0631CED96B100D37A5D /* EGNewsNavigationViewController.h */,
+				917EB0641CED96B100D37A5D /* EGNewsNavigationViewController.m */,
+				917EB0661CED96C700D37A5D /* EGNewsViewController.h */,
+				917EB0671CED96C700D37A5D /* EGNewsViewController.m */,
 			);
 			path = NewsViewController;
 			sourceTree = "<group>";
@@ -676,6 +705,10 @@
 		917400D71CECC3700052883D /* ReadingViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9155A42D1CED98A700CEB962 /* EGReadingNavigationViewController.h */,
+				9155A42E1CED98A700CEB962 /* EGReadingNavigationViewController.m */,
+				9155A4301CED98BE00CEB962 /* EGReadingViewController.h */,
+				9155A4311CED98BE00CEB962 /* EGReadingViewController.m */,
 			);
 			path = ReadingViewController;
 			sourceTree = "<group>";
@@ -721,6 +754,8 @@
 		917400DB1CECC3700052883D /* VideoViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9155A4331CED99E300CEB962 /* EGVideoNavigationViewController.h */,
+				9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */,
 				91605B6D1CECCFDA007FB9AF /* EGVideoViewController.h */,
 				91605B6E1CECCFDA007FB9AF /* EGVideoViewController.m */,
 			);
@@ -895,6 +930,7 @@
 				91605B001CECCBC0007FB9AF /* MJRefreshFooter.m in Sources */,
 				91605AC81CECCBAC007FB9AF /* MASConstraintMaker.m in Sources */,
 				91605AA61CECCB9B007FB9AF /* NSObject+MJCoding.m in Sources */,
+				9155A4321CED98BE00CEB962 /* EGReadingViewController.m in Sources */,
 				91605AA01CECCB9B007FB9AF /* MJExtensionConst.m in Sources */,
 				91605AA51CECCB9B007FB9AF /* NSObject+MJClass.m in Sources */,
 				91605AA31CECCB9B007FB9AF /* MJPropertyKey.m in Sources */,
@@ -921,6 +957,7 @@
 				91605AA21CECCB9B007FB9AF /* MJProperty.m in Sources */,
 				91605B4A1CECCBD9007FB9AF /* SDWebImageDecoder.m in Sources */,
 				91605AC91CECCBAC007FB9AF /* MASLayoutConstraint.m in Sources */,
+				917EB0621CED940A00D37A5D /* EGDiscussNavigationViewController.m in Sources */,
 				91605AA11CECCB9B007FB9AF /* MJFoundation.m in Sources */,
 				91605A881CECCB76007FB9AF /* UIImage+ImageWithColor.m in Sources */,
 				917400A21CECC2A60052883D /* AppDelegate.m in Sources */,
@@ -952,12 +989,17 @@
 				91605B4D1CECCBD9007FB9AF /* SDWebImageManager.m in Sources */,
 				91605B4B1CECCBD9007FB9AF /* SDWebImageDownloader.m in Sources */,
 				91605A7D1CECCA8B007FB9AF /* EGUserViewController.m in Sources */,
+				917EB05F1CED938E00D37A5D /* EGDiscussViewController.m in Sources */,
+				9155A4351CED99E300CEB962 /* EGVideoNavigationViewController.m in Sources */,
+				9155A42F1CED98A700CEB962 /* EGReadingNavigationViewController.m in Sources */,
 				91605B4C1CECCBD9007FB9AF /* SDWebImageDownloaderOperation.m in Sources */,
+				917EB0681CED96C700D37A5D /* EGNewsViewController.m in Sources */,
 				91605B621CECCBE5007FB9AF /* SVProgressAnimatedView.m in Sources */,
 				91B09F6A1CED561D00483840 /* EGSettingTableViewCell.m in Sources */,
 				91605B461CECCBD9007FB9AF /* MKAnnotationView+WebCache.m in Sources */,
 				91605AA81CECCB9B007FB9AF /* NSObject+MJProperty.m in Sources */,
 				91605AFE1CECCBC0007FB9AF /* MJRefreshBackFooter.m in Sources */,
+				917EB0651CED96B100D37A5D /* EGNewsNavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  EGVideoViewController.h
+//  EGReadingViewController.h
 //  MO_0518_Exercise
 //
 //  Created by Fangweiyi on 5/19/16.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EGVideoViewController : UIViewController
-
+@interface EGReadingViewController : UIViewController
 
 @end

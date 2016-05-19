@@ -8,9 +8,11 @@
 
 #import "EGRootViewController.h"
 
-#import "EGVideoViewController.h"
+#import "EGNewsNavigationViewController.h"
+#import "EGReadingNavigationViewController.h"
+#import "EGDiscussNavigationViewController.h"
+#import "EGVideoNavigationViewController.h"
 #import "EGUserSettingNavigationController.h"
-
 
 @implementation EGRootViewController
 
@@ -22,10 +24,26 @@
 // setup ChildViewControllers
 
 - (void)setUpChildViewControllers {
-    EGVideoViewController *videoViewController = [EGVideoViewController videoViewController];
-    EGUserSettingNavigationController *userViewController = [EGUserSettingNavigationController userViewController];
+    EGNewsNavigationViewController *newsViewController =
+    [EGNewsNavigationViewController newsViewController];
     
-    self.viewControllers = @[videoViewController, userViewController];
+    EGReadingNavigationViewController *readingViewController =
+    [EGReadingNavigationViewController readingViewController];
+    
+    EGDiscussNavigationViewController *discussViewController =
+    [EGDiscussNavigationViewController discussViewController];
+    
+     EGVideoNavigationViewController *videoViewController =
+    [EGVideoNavigationViewController videoViewController];
+
+    EGUserSettingNavigationController *userViewController =
+    [EGUserSettingNavigationController userViewController];
+    
+    self.viewControllers = @[newsViewController,
+                             readingViewController,
+                             discussViewController,
+                             videoViewController,
+                             userViewController];
 }
 
 @end
