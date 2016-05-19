@@ -25,7 +25,6 @@
     [self setup];
 }
 
-
 - (void)setup {
     self.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"用户" image:nil selectedImage:nil];
 }

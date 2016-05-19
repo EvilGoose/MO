@@ -37,7 +37,7 @@
 
 //设置Navigationbar 状态
 - (void)setNaviagationBarTranspatent {
-    NSLog(@"%@", @"aaa");
+    NSLog(@"%s", __func__);
 }
 
 - (void)setNavigationBarOrigin  {

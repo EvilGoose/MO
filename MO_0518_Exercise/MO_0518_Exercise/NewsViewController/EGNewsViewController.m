@@ -8,30 +8,62 @@
 
 #import "EGNewsViewController.h"
 
-@interface EGNewsViewController ()
+#import "Masonry.h"
+
+@interface EGNewsViewController () < UITableViewDataSource,UITableViewDelegate >
+
+/**tableView*/
+@property (weak, nonatomic)UITableView *newsTableView;
 
 @end
 
 @implementation EGNewsViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//重写初始化
+- (instancetype)init {
+    if (self = [super init]) {
+        [self setup];
+    }
+    return self;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//初始化设置
+- (void)setup {
+    [self.navigationItem setTitle:@"新闻"];
 }
 
-/*
-#pragma mark - Navigation
+#pragma mark - lazyload
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UITableView *)newsTableView {
+    if (!_newsTableView) {
+        UITableView *tableView = [[UITableView alloc]init];
+        [self.view addSubview:tableView];
+        _newsTableView = tableView;
+        _newsTableView.dataSource = self;
+    }
+    return _newsTableView;
 }
-*/
+
+#pragma mark - datasource 
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return  10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"news"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"news"];
+        [cell.textLabel setText: @"news"];
+    }
+    return cell;
+}
+
+- (void)viewWillLayoutSubviews {
+    NSLog(@"%s", __func__);
+    [self.newsTableView setBounds:[UIScreen mainScreen].bounds];
+    [self.newsTableView setCenter:self.view.center];
+    [self.newsTableView setRowHeight:100];
+}
 
 @end

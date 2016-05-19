@@ -23,6 +23,7 @@
     return newNavigationController;
 }
 
+//重写初始化方法
 - (instancetype)initWithRootViewController:(UIViewController *)rootViewController {
     if (self = [super initWithRootViewController:rootViewController]) {
         [self setup];
@@ -31,7 +32,6 @@
 }
 
 - (void)setup {
-    self.view.backgroundColor = [UIColor greenColor];
 }
 
 @end

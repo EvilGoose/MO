@@ -10,6 +10,10 @@
 		9155A42F1CED98A700CEB962 /* EGReadingNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A42E1CED98A700CEB962 /* EGReadingNavigationViewController.m */; };
 		9155A4321CED98BE00CEB962 /* EGReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4311CED98BE00CEB962 /* EGReadingViewController.m */; };
 		9155A4351CED99E300CEB962 /* EGVideoNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */; };
+		9155A43B1CEDAB7600CEB962 /* EGNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4391CEDAB7600CEB962 /* EGNewsCell.m */; };
+		9155A43C1CEDAB7600CEB962 /* EGNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155A43A1CEDAB7600CEB962 /* EGNewsCell.xib */; };
+		9155A4411CEDABD100CEB962 /* EGVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4401CEDABD100CEB962 /* EGVideoCell.m */; };
+		9155A4431CEDABE500CEB962 /* EGVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155A4421CEDABE500CEB962 /* EGVideoCell.xib */; };
 		91605A7D1CECCA8B007FB9AF /* EGUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */; };
 		91605A841CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A831CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m */; };
 		91605A881CECCB76007FB9AF /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A871CECCB76007FB9AF /* UIImage+ImageWithColor.m */; };
@@ -126,6 +130,12 @@
 		9155A4311CED98BE00CEB962 /* EGReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGReadingViewController.m; sourceTree = "<group>"; };
 		9155A4331CED99E300CEB962 /* EGVideoNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoNavigationViewController.h; sourceTree = "<group>"; };
 		9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoNavigationViewController.m; sourceTree = "<group>"; };
+		9155A4381CEDAB7600CEB962 /* EGNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGNewsCell.h; sourceTree = "<group>"; };
+		9155A4391CEDAB7600CEB962 /* EGNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGNewsCell.m; sourceTree = "<group>"; };
+		9155A43A1CEDAB7600CEB962 /* EGNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGNewsCell.xib; sourceTree = "<group>"; };
+		9155A43F1CEDABD100CEB962 /* EGVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoCell.h; sourceTree = "<group>"; };
+		9155A4401CEDABD100CEB962 /* EGVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoCell.m; sourceTree = "<group>"; };
+		9155A4421CEDABE500CEB962 /* EGVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGVideoCell.xib; sourceTree = "<group>"; };
 		91605A7B1CECCA8B007FB9AF /* EGUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGUserViewController.h; sourceTree = "<group>"; };
 		91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGUserViewController.m; sourceTree = "<group>"; };
 		91605A7F1CECCB2A007FB9AF /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
@@ -341,6 +351,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9155A4361CEDAB5A00CEB962 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9155A4371CEDAB5A00CEB962 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9155A4381CEDAB7600CEB962 /* EGNewsCell.h */,
+				9155A4391CEDAB7600CEB962 /* EGNewsCell.m */,
+				9155A43A1CEDAB7600CEB962 /* EGNewsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9155A43D1CEDABBF00CEB962 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9155A43E1CEDABBF00CEB962 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9155A43F1CEDABD100CEB962 /* EGVideoCell.h */,
+				9155A4401CEDABD100CEB962 /* EGVideoCell.m */,
+				9155A4421CEDABE500CEB962 /* EGVideoCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		91605A811CECCB6F007FB9AF /* BarButtonItemWithButton */ = {
 			isa = PBXGroup;
 			children = (
@@ -636,11 +680,11 @@
 			isa = PBXGroup;
 			children = (
 				91605B6B1CECCCEB007FB9AF /* EGInfo.h */,
-				917400DA1CECC3700052883D /* UserViewController */,
-				917400DB1CECC3700052883D /* VideoViewController */,
-				917400D51CECC3700052883D /* DiscussViewController */,
 				917400D61CECC3700052883D /* NewsViewController */,
 				917400D71CECC3700052883D /* ReadingViewController */,
+				917400D51CECC3700052883D /* DiscussViewController */,
+				917400DB1CECC3700052883D /* VideoViewController */,
+				917400DA1CECC3700052883D /* UserViewController */,
 				917400D81CECC3700052883D /* RootViewController */,
 				917400DE1CECC3A30052883D /* BasicFrame */,
 				917400D91CECC3700052883D /* Tools */,
@@ -698,6 +742,8 @@
 				917EB0641CED96B100D37A5D /* EGNewsNavigationViewController.m */,
 				917EB0661CED96C700D37A5D /* EGNewsViewController.h */,
 				917EB0671CED96C700D37A5D /* EGNewsViewController.m */,
+				9155A4361CEDAB5A00CEB962 /* Model */,
+				9155A4371CEDAB5A00CEB962 /* View */,
 			);
 			path = NewsViewController;
 			sourceTree = "<group>";
@@ -754,6 +800,8 @@
 		917400DB1CECC3700052883D /* VideoViewController */ = {
 			isa = PBXGroup;
 			children = (
+				9155A43D1CEDABBF00CEB962 /* Model */,
+				9155A43E1CEDABBF00CEB962 /* View */,
 				9155A4331CED99E300CEB962 /* EGVideoNavigationViewController.h */,
 				9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */,
 				91605B6D1CECCFDA007FB9AF /* EGVideoViewController.h */,
@@ -886,9 +934,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				91605B631CECCBE5007FB9AF /* SVProgressHUD.bundle in Resources */,
+				9155A43C1CEDAB7600CEB962 /* EGNewsCell.xib in Resources */,
 				91B09F661CED515000483840 /* EGUserSettingNavigationController.storyboard in Resources */,
 				917400AD1CECC2A60052883D /* LaunchScreen.storyboard in Resources */,
 				917400AA1CECC2A60052883D /* Assets.xcassets in Resources */,
+				9155A4431CEDABE500CEB962 /* EGVideoCell.xib in Resources */,
 				91B09F711CED593200483840 /* EGUserDetailViewController.xib in Resources */,
 				91B09F6B1CED561D00483840 /* EGSettingTableViewCell.xib in Resources */,
 				91605B0B1CECCBC0007FB9AF /* MJRefresh.bundle in Resources */,
@@ -945,10 +995,12 @@
 				91605B081CECCBC0007FB9AF /* MJRefreshGifHeader.m in Sources */,
 				91605ACE1CECCBAC007FB9AF /* View+MASAdditions.m in Sources */,
 				91605B611CECCBE5007FB9AF /* SVIndefiniteAnimatedView.m in Sources */,
+				9155A43B1CEDAB7600CEB962 /* EGNewsCell.m in Sources */,
 				91605B4E1CECCBD9007FB9AF /* SDWebImagePrefetcher.m in Sources */,
 				91605B651CECCBE5007FB9AF /* SVRadialGradientLayer.m in Sources */,
 				91605B0A1CECCBC0007FB9AF /* MJRefreshStateHeader.m in Sources */,
 				91B09F701CED593200483840 /* EGUserDetailViewController.m in Sources */,
+				9155A4411CEDABD100CEB962 /* EGVideoCell.m in Sources */,
 				91605B491CECCBD9007FB9AF /* SDWebImageCompat.m in Sources */,
 				91605AC61CECCBAC007FB9AF /* MASCompositeConstraint.m in Sources */,
 				91605B061CECCBC0007FB9AF /* MJRefreshBackNormalFooter.m in Sources */,
