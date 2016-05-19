@@ -14,6 +14,9 @@
 		9155A43C1CEDAB7600CEB962 /* EGNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155A43A1CEDAB7600CEB962 /* EGNewsCell.xib */; };
 		9155A4411CEDABD100CEB962 /* EGVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4401CEDABD100CEB962 /* EGVideoCell.m */; };
 		9155A4431CEDABE500CEB962 /* EGVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155A4421CEDABE500CEB962 /* EGVideoCell.xib */; };
+		9155A4471CEDB6B700CEB962 /* EGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4461CEDB6B700CEB962 /* EGVideoViewController.m */; };
+		9155A44B1CEDB7FA00CEB962 /* EGVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155A4491CEDB7FA00CEB962 /* EGVideoPlayController.m */; };
+		9155A44C1CEDB7FA00CEB962 /* EGVideoPlayController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9155A44A1CEDB7FA00CEB962 /* EGVideoPlayController.xib */; };
 		91605A7D1CECCA8B007FB9AF /* EGUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */; };
 		91605A841CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A831CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m */; };
 		91605A881CECCB76007FB9AF /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605A871CECCB76007FB9AF /* UIImage+ImageWithColor.m */; };
@@ -85,7 +88,6 @@
 		91605B641CECCBE5007FB9AF /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605B5E1CECCBE5007FB9AF /* SVProgressHUD.m */; };
 		91605B651CECCBE5007FB9AF /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605B601CECCBE5007FB9AF /* SVRadialGradientLayer.m */; };
 		91605B691CECCC10007FB9AF /* NSString+GetPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605B681CECCC10007FB9AF /* NSString+GetPath.m */; };
-		91605B6F1CECCFDA007FB9AF /* EGVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91605B6E1CECCFDA007FB9AF /* EGVideoViewController.m */; };
 		9174009F1CECC2A60052883D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9174009E1CECC2A60052883D /* main.m */; };
 		917400A21CECC2A60052883D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 917400A11CECC2A60052883D /* AppDelegate.m */; };
 		917400AA1CECC2A60052883D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917400A91CECC2A60052883D /* Assets.xcassets */; };
@@ -136,6 +138,11 @@
 		9155A43F1CEDABD100CEB962 /* EGVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoCell.h; sourceTree = "<group>"; };
 		9155A4401CEDABD100CEB962 /* EGVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoCell.m; sourceTree = "<group>"; };
 		9155A4421CEDABE500CEB962 /* EGVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGVideoCell.xib; sourceTree = "<group>"; };
+		9155A4451CEDB6B700CEB962 /* EGVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoViewController.h; sourceTree = "<group>"; };
+		9155A4461CEDB6B700CEB962 /* EGVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoViewController.m; sourceTree = "<group>"; };
+		9155A4481CEDB7FA00CEB962 /* EGVideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoPlayController.h; sourceTree = "<group>"; };
+		9155A4491CEDB7FA00CEB962 /* EGVideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoPlayController.m; sourceTree = "<group>"; };
+		9155A44A1CEDB7FA00CEB962 /* EGVideoPlayController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGVideoPlayController.xib; sourceTree = "<group>"; };
 		91605A7B1CECCA8B007FB9AF /* EGUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGUserViewController.h; sourceTree = "<group>"; };
 		91605A7C1CECCA8B007FB9AF /* EGUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGUserViewController.m; sourceTree = "<group>"; };
 		91605A7F1CECCB2A007FB9AF /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
@@ -288,8 +295,6 @@
 		91605B671CECCC10007FB9AF /* NSString+GetPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GetPath.h"; sourceTree = "<group>"; };
 		91605B681CECCC10007FB9AF /* NSString+GetPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GetPath.m"; sourceTree = "<group>"; };
 		91605B6B1CECCCEB007FB9AF /* EGInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGInfo.h; sourceTree = "<group>"; };
-		91605B6D1CECCFDA007FB9AF /* EGVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGVideoViewController.h; sourceTree = "<group>"; };
-		91605B6E1CECCFDA007FB9AF /* EGVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGVideoViewController.m; sourceTree = "<group>"; };
 		9174009A1CECC2A60052883D /* MO_0518_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MO_0518_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9174009E1CECC2A60052883D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		917400A01CECC2A60052883D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -383,6 +388,18 @@
 				9155A4421CEDABE500CEB962 /* EGVideoCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		9155A4441CEDB6B700CEB962 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9155A4451CEDB6B700CEB962 /* EGVideoViewController.h */,
+				9155A4461CEDB6B700CEB962 /* EGVideoViewController.m */,
+				9155A4481CEDB7FA00CEB962 /* EGVideoPlayController.h */,
+				9155A4491CEDB7FA00CEB962 /* EGVideoPlayController.m */,
+				9155A44A1CEDB7FA00CEB962 /* EGVideoPlayController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		91605A811CECCB6F007FB9AF /* BarButtonItemWithButton */ = {
@@ -800,12 +817,11 @@
 		917400DB1CECC3700052883D /* VideoViewController */ = {
 			isa = PBXGroup;
 			children = (
-				9155A43D1CEDABBF00CEB962 /* Model */,
-				9155A43E1CEDABBF00CEB962 /* View */,
 				9155A4331CED99E300CEB962 /* EGVideoNavigationViewController.h */,
 				9155A4341CED99E300CEB962 /* EGVideoNavigationViewController.m */,
-				91605B6D1CECCFDA007FB9AF /* EGVideoViewController.h */,
-				91605B6E1CECCFDA007FB9AF /* EGVideoViewController.m */,
+				9155A43D1CEDABBF00CEB962 /* Model */,
+				9155A4441CEDB6B700CEB962 /* Controller */,
+				9155A43E1CEDABBF00CEB962 /* View */,
 			);
 			path = VideoViewController;
 			sourceTree = "<group>";
@@ -942,6 +958,7 @@
 				91B09F711CED593200483840 /* EGUserDetailViewController.xib in Resources */,
 				91B09F6B1CED561D00483840 /* EGSettingTableViewCell.xib in Resources */,
 				91605B0B1CECCBC0007FB9AF /* MJRefresh.bundle in Resources */,
+				9155A44C1CEDB7FA00CEB962 /* EGVideoPlayController.xib in Resources */,
 				91605AC51CECCBAC007FB9AF /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1006,6 +1023,7 @@
 				91605B061CECCBC0007FB9AF /* MJRefreshBackNormalFooter.m in Sources */,
 				917400E41CECC3E90052883D /* EGRootViewController.m in Sources */,
 				91605A841CECCB6F007FB9AF /* UIBarButtonItem+BarButtonItemWithButton.m in Sources */,
+				9155A44B1CEDB7FA00CEB962 /* EGVideoPlayController.m in Sources */,
 				91605AA21CECCB9B007FB9AF /* MJProperty.m in Sources */,
 				91605B4A1CECCBD9007FB9AF /* SDWebImageDecoder.m in Sources */,
 				91605AC91CECCBAC007FB9AF /* MASLayoutConstraint.m in Sources */,
@@ -1032,7 +1050,6 @@
 				91605B071CECCBC0007FB9AF /* MJRefreshBackStateFooter.m in Sources */,
 				91605B211CECCBCB007FB9AF /* AFURLRequestSerialization.m in Sources */,
 				91605ACF1CECCBAC007FB9AF /* ViewController+MASAdditions.m in Sources */,
-				91605B6F1CECCFDA007FB9AF /* EGVideoViewController.m in Sources */,
 				91605B011CECCBC0007FB9AF /* MJRefreshHeader.m in Sources */,
 				91605B511CECCBD9007FB9AF /* UIImage+MultiFormat.m in Sources */,
 				91605B051CECCBC0007FB9AF /* MJRefreshBackGifFooter.m in Sources */,
@@ -1041,6 +1058,7 @@
 				91605B4D1CECCBD9007FB9AF /* SDWebImageManager.m in Sources */,
 				91605B4B1CECCBD9007FB9AF /* SDWebImageDownloader.m in Sources */,
 				91605A7D1CECCA8B007FB9AF /* EGUserViewController.m in Sources */,
+				9155A4471CEDB6B700CEB962 /* EGVideoViewController.m in Sources */,
 				917EB05F1CED938E00D37A5D /* EGDiscussViewController.m in Sources */,
 				9155A4351CED99E300CEB962 /* EGVideoNavigationViewController.m in Sources */,
 				9155A42F1CED98A700CEB962 /* EGReadingNavigationViewController.m in Sources */,

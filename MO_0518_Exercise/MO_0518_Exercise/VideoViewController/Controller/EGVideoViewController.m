@@ -8,6 +8,8 @@
 
 #import "EGVideoViewController.h"
 
+#import "EGVideoPlayController.h"
+
 #import "EGVideoCell.h"
 
 @interface EGVideoViewController () < UITableViewDataSource, UITableViewDelegate >
@@ -69,6 +71,25 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return 240;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSLog(@"%ld",indexPath.row);
+    [self showPlayController:@"URL"];
+}
+
+//视频播放界面
+- (void)showPlayController:(NSString *)urlStr {
+    EGVideoPlayController *playController = [[EGVideoPlayController alloc]init];
+    [self.navigationController pushViewController:playController animated:YES];
+    self.tabBarController.tabBar.hidden = YES;
+}
+
+#pragma mark - life circle 
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.tabBar.hidden = NO;
 }
 
 @end

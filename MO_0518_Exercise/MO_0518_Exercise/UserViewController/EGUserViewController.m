@@ -68,9 +68,15 @@ NSString *ID = @"settings";
 - (IBAction)iconClick {
     EGUserDetailViewController *detailViewController = [[EGUserDetailViewController alloc]init];
     [self.navigationController pushViewController:detailViewController animated:YES];
+    self.tabBarController.tabBar.hidden = YES;
 }
 
+#pragma mark - life circle 
 
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.tabBarController.tabBar.hidden = NO;
+}
 
 @end
  
